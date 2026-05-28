@@ -60,8 +60,7 @@ function createButterflies() {
 
       butterfly.classList.add('butterfly');
 
-      butterfly.innerHTML = `<img
-      src="cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8xX3dhdGVyY29sb3JfaWxsdXN0cmF0aW9uX29mX2J1dHRlcmZseV9pc29sYXRlZF9mMzZmNmMzYi05Y2NlLTQ3YTItOTM2MC1jOGIwYTVmMWRiOTJfMS5wbmc.png" width="60">`;
+      butterfly.innerHTML = `<img src="cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8xX3dhdGVyY29sb3JfaWxsdXN0cmF0aW9uX29mX2J1dHRlcmZseV9pc29sYXRlZF9mMzZmNmMzYi05Y2NlLTQ3YTItOTM2MC1jOGIwYTVmMWRiOTJfMS5wbmc.png" width="60">`;
 
       butterfly.style.left = Math.random() * 100 + '%';
       butterfly.style.animationDuration = 10 + Math.random() * 10 + 's';
